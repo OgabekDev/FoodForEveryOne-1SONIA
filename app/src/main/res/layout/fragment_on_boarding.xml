@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FF4B3A"
+    tools:context=".ui.fragment.OnBoardingFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/logo"
+                android:padding="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="50dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:background="@drawable/splash_ellipse"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_for_everyone"
+
+                android:fontFamily="@font/heavy"
+                android:layout_marginStart="50dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="50sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/on_board"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal">
+
+            <Button
+                android:id="@+id/btnGetStarted"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="16dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/round_white"
+                android:text="@string/get_started"
+                android:fontFamily="@font/semi_bold"
+                android:textColor="#FF460A"
+                android:textAllCaps="false"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="50dp"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    tools:context=".ui.fragment.login.LoginPartFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="#F2F2F2"
+            android:hint="@string/email_address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/semi_bold"
+                android:inputType="textEmailAddress"
+                android:textAllCaps="false"
+                android:background="#F2F2F2"
+                android:textColor="@color/black"
+                android:textColorHighlight="#FA4A0C"
+                android:textColorHint="#FA4A0C"
+                android:textColorLink="#FA4A0C"
+                android:textSize="17sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:background="#F2F2F2"
+            android:layout_marginTop="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/semi_bold"
+                android:inputType="textPassword"
+                android:textAllCaps="false"
+                android:background="#F2F2F2"
+                android:textColor="@color/black"
+                android:textColorHighlight="#FA4A0C"
+                android:textColorHint="#FA4A0C"
+                android:textColorLink="#FA4A0C"
+                android:textSize="17sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FA4A0C"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:text="@string/forgot_passcode"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/semi_bold"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/round_qirmiz"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:fontFamily="@font/semi_bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</FrameLayout>

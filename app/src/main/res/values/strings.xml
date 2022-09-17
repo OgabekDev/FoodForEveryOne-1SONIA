@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_for_everyone">Food for Everyone</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_passcode">Forgot passcode?</string>
+    <string name="home">Home</string>
+    <string name="love">Love</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="delicious_food_for_you">Delicious\nfood for you</string>
+    <string name="search">Search</string>
+    <string name="foods">Foods</string>
+    <string name="see_more">see more</string>
+    <string name="veggie_ntomato_mix">Veggie tomato mix</string>
+    <string name="n1_900">N1,900</string>
+    <string name="delivery_info">Delivered between monday aug and thursday 20 from 8pm to 91:32 pm</string>
+    <string name="return_policy">All our foods are double checked before leaving our stores so by any case you found a broken food please contact our hotline immediately.</string>
+    <string name="found_6_results">Found 6 results</string>
+    <string name="str_delivery_info">Delivery Info</string>
+    <string name="str_return_policy">Return Policy</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="complete_order">Complete Order</string>
+    <string name="cart">Cart</string>
+    <string name="payment">Payment</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="card">Card</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="delivery_method">Delivery Method</string>
+    <string name="proceed_to_payment">Proceed to payment</string>
+    <string name="total">Total</string>
+    <string name="_23_000">23,000</string>
+    <string name="update">Update</string>
+    <string name="my_profile">My Profile</string>
+    <string name="personal_details">Personal details</string>
+    <string name="change">Change</string>
+    <string name="marvis_ighedosa">Marvis Ighedosa</string>
+    <string name="dosamarvis_gmail_com">Dosamarvis@gmail.com</string>
+    <string name="email">ogabekdev@gmail.com</string>
+    <string name="name">OgabekDev</string>
+    <string name="number">+998 93 203 73 13</string>
+    <string name="about">I am an Android Developer. @OgabekDev in all social media. Please subscribe</string>
+    <string name="orders">Orders</string>
+    <string name="pending_reviews">Pending Reviews</string>
+    <string name="faq">Faq</string>
+    <string name="help">Help</string>
+
+</resources>

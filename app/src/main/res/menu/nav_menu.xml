@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title=""
+        android:icon="@drawable/nav_home"/>
+
+    <item
+        android:id="@+id/love"
+        android:title=""
+        android:icon="@drawable/nav_love"/>
+
+    <item
+        android:id="@+id/user"
+        android:title=""
+        android:icon="@drawable/nav_user"/>
+
+    <item
+        android:id="@+id/history"
+        android:title=""
+        android:icon="@drawable/nav_history"/>
+
+</menu>
